@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto";
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 21px 21px;
+    background: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link {
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.main {
+    padding: 66px 0 78pt;
+    background: black;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.desc {
+    margin: 10px 0 0 0;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+
+.btn {
+    margin: 50px 0 0 0;
+    width: 280px;
+    height: 60px;
+}
